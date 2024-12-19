@@ -1,7 +1,6 @@
 // Import discord.js
 const { Client, GatewayIntentBits } = require('discord.js');
 const { SlashCommandBuilder } = require('@discordjs/builders');
-const { token, guildId } = require("./config.json")
 
 // Create a new client instance
 const client = new Client({
